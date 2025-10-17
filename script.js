@@ -57,9 +57,9 @@ contactForm.addEventListener('submit', (e) => {
     const data = Object.fromEntries(formData);
     
     // In a real application, you would send this data to a server
-    console.log('Form submitted with data:', data);
+    // console.log('Form submitted with data:', data);
     
-    // Show success message
+    // Show success message (in production, replace with a toast notification)
     alert('Thank you for your message! We will get back to you soon.');
     
     // Reset form
@@ -152,4 +152,4 @@ document.querySelectorAll('.stat-value').forEach(stat => {
     statsObserver.observe(stat);
 });
 
-console.log('Everythingaicompany website loaded successfully!');
+// console.log('Everythingaicompany website loaded successfully!');
